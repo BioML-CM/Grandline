@@ -1,2 +1,22 @@
 # Grandline
 **Gra**ph convolutional **n**eural network classification mo**d**el for **i**ntegrating biological **n**etwork and gene **e**xpression (Grandline). A framework for predicting phenotype based on an integration of gene expression data and protein-protein interaction network and identifying important subnetworks in the prediction.
+
+## How to use Grandline
+```bash
+git lfs clone https://github.com/BioML-CM/Grandline
+conda create -n grandline python=3.7
+conda activate grandline
+cd grandline
+pip install -r requirements.txt
+nohup jupyter notebook --port 8888 &
+```
+Next, open `tutorial.ipynb` on your browser.
+
+## To install git lfs on Ubuntu
+Alternatively, you may download the example dataset directly from github and add to data directory.
+```bash
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
+```
+For other operating systems: https://github.com/git-lfs/git-lfs/wiki/Installation
