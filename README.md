@@ -1,6 +1,8 @@
 # Grandline
 **Gra**ph convolutional **n**eural network classification mo**d**el for **i**ntegrating biological **n**etwork and gene **e**xpression (Grandline). A framework for predicting phenotype based on an integration of gene expression data and protein-protein interaction network and identifying important subnetworks in the prediction.
 
+<img width="959" alt="Grandline framework" src="https://user-images.githubusercontent.com/76929527/103628608-d9dd7480-4f71-11eb-9978-2606747865c8.png">
+
 ## How to use Grandline
 ```bash
 git lfs clone https://github.com/BioML-CM/Grandline
