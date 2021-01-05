@@ -8,7 +8,7 @@
 git lfs clone https://github.com/BioML-CM/Grandline
 conda create -n grandline python=3.7
 conda activate grandline
-cd grandline
+cd Grandline
 pip install -r requirements.txt
 nohup jupyter notebook --port 8888 &
 ```
